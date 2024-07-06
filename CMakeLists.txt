@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.28)
-project(game_of_life C)
+project(game-of-life C)
 
 set(CMAKE_C_STANDARD 23)
 
@@ -12,7 +12,7 @@ find_package(CUnit REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS} ${CUNIT_INCLUDE_DIRS} includes)
 
 add_executable(
-        game_of_life
+        game-of-life
         src/main.c
         src/grid.c
         src/renderer.c
