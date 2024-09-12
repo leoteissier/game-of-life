@@ -1,0 +1,10 @@
+stages:
+  - test
+
+rust_test:
+  stage: test
+  image: rust:latest
+  script:
+    - cargo test --verbose
+  only:
+    - main
