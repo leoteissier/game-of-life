@@ -20,13 +20,13 @@ Ce projet est une implémentation du **Jeu de la Vie** de John Horton Conway en 
 1. Clone le dépôt GitLab sur ta machine locale :
 
     ```bash
-    git clone https://gitlab.com/ton_dépôt/game_of_life.git
+    git clone https://gitlab.com/leoteissier/game-of-life.git
     ```
 
 2. Navigue dans le répertoire du projet :
 
     ```bash
-    cd game_of_life
+    cd game-of-life
     ```
 
 3. Installe les dépendances et compile le projet :
